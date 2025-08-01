@@ -1,7 +1,7 @@
-## Customer Segmentation Web App
+ Customer Segmentation Web App
     A Flask-based web application that performs customer segmentation using K-Means Clustering. Users can upload a CSV file containing customer data, specify the number of clusters, and view the clustering results in an interactive format.
 
-## Features
+Features
     Upload your own customer dataset (CSV)
 
     Choose the number of clusters (K)
@@ -13,7 +13,7 @@
 
     Powered by Flask and Python
 
-## Technologies Used
+Technologies Used
     Component	Tech Stack
     Backend	Python, Flask
     Machine Learning	Scikit-learn, Pandas, NumPy
@@ -47,7 +47,7 @@ To use this app, your CSV should contain numerical features only.
 
 Column names are optional, but make sure the data has consistent numeric format.
 
-## ⚙️ How to Run the App
+⚙️ How to Run the App
 Clone the Repository
 
         git clone https://github.com/Deepakprasath10/K_Means.git
