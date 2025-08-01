@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KMeans Clustering</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Segmentation with KMeans</h2>
+        <form action="/result" method="POST" enctype="multipart/form-data">
+            <label>Upload CSV File:</label><br>
+            <input type="file" name="file" required><br><br>
+            <label>Enter number of clusters (k):</label><br>
+            <input type="number" name="clusters" min="2" max="10" required><br><br>
+            <input type="submit" value="Run KMeans">
+        </form>
+    </div>
+</body>
+</html>

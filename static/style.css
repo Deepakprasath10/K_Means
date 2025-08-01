@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #eaf4f4;
+    padding: 60px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px 30px;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2e7d32;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+input[type="file"],
+input[type="number"],
+input[type="submit"] {
+    display: block;
+    margin: 16px auto;
+    padding: 12px 14px;
+    font-size: 15px;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition: all 0.25s ease-in-out;
+}
+
+input[type="file"]:hover,
+input[type="number"]:hover {
+    border-color: #64b5f6;
+    background-color: #f1faff;
+}
+
+input[type="number"]:focus,
+input[type="file"]:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 4px rgba(33, 150, 243, 0.4);
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b5e20;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+}
